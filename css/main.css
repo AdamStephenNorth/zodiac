@@ -1,0 +1,83 @@
+form, div {
+  text-align: center;
+}
+
+input {
+  width: 30%;
+}
+
+.button-holder, input, h1 {
+  margin: 25px;
+}
+
+#aries {
+  background: url('../img/zodiac-signs.jpg') no-repeat -440px 0;
+  width: 128px;
+  height: 136px;
+}
+
+#taurus {
+  background: url('../img/zodiac-signs.jpg') no-repeat -8px -160px;
+  width: 128px;
+  height: 144px;
+}
+
+#gemini {
+  background: url('../img/zodiac-signs.jpg') no-repeat -152px -168px;
+  width: 144px;
+  height: 136px;
+}
+
+#cancer {
+  background: url('../img/zodiac-signs.jpg') no-repeat -328px -152px;
+  width: 88px;
+  height: 144px;
+}
+
+#leo {
+  background: url('../img/zodiac-signs.jpg') no-repeat -448px -152px;
+	width: 128px;
+	height: 144px;
+}
+
+#virgo {
+  background: url('../img/zodiac-signs.jpg') no-repeat -8px -328px;
+  width: 128px;
+  height: 312px;
+}
+
+#libra {
+  background: url('../img/zodiac-signs.jpg') no-repeat -168px -344px;
+  width: 120px;
+  height: 128px;
+}
+
+#scorpio {
+  background: url('../img/zodiac-signs.jpg') no-repeat -312px -328px;
+  width: 120px;
+  height: 144px;
+}
+
+#saggitarius {
+  background: url('../img/zodiac-signs.jpg') no-repeat -440px -320px;
+  width: 136px;
+  height: 152px;
+}
+
+#capricorn {
+ background: url('../img/zodiac-signs.jpg') no-repeat -8px 0;
+ width: 120px;
+ height: 144px;
+}
+
+#aquarius {
+  background: url('../img/zodiac-signs.jpg') no-repeat -160px 0;
+  width: 112px;
+  height: 144px;
+}
+
+#pisces {
+  background: url('../img/zodiac-signs.jpg') no-repeat -296px 0;
+  width: 136px;
+  height: 136px;
+}

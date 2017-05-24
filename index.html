@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript">
+    function noenter() {
+      return !(window.event && window.event.keyCode == 13);
+    }
+  </script>
+</head>
+<body>
+
+  <form>
+    <h1>Enter Your Zodiac Sign</h1>
+    <input type="text" id="inputBox" onkeypress="return noenter()">
+    <div class="button-holder">
+      <button class="btn btn-info btn-lg" type="button" onclick="getSign()">Show Info</button>
+    </div>
+  </form>
+
+  <div id="outputBox"></div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
